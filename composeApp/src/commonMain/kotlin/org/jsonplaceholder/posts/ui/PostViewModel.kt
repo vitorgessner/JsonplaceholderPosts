@@ -1,12 +1,9 @@
 package org.jsonplaceholder.posts.ui
 
 import androidx.compose.runtime.*
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.launch
 import org.jsonplaceholder.posts.domain.Post
 import org.jsonplaceholder.posts.domain.PostService
 
